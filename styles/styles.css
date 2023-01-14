@@ -211,6 +211,7 @@ footer{
     header{
         padding: 0 20px;
     }
+    .menu-item{margin-left: 0;}
     .logo{
         text-align: center;
         font-size: 18px;
@@ -227,6 +228,7 @@ footer{
         background-size: 80%;
         width: 100%;
         text-align: center;
+        margin:50px 0 20px;
     }
     .content{
         width:100%;
@@ -265,6 +267,7 @@ footer{
     .featured{
         flex-direction: column;
         padding: 20px;
+        gap:25px
     }
     .featured img{
         width: 100%;
