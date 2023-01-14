@@ -254,6 +254,24 @@ footer{
         justify-content: space-between;
         height: 80px;
     }
+    .products{
+        grid-template-columns: repeat(1,1fr);
+        gap: 20px;
+        padding:0 20px;
+    }
+    .see-more{
+        padding-right: 20px;
+    }
+    .featured{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .featured img{
+        width: 100%;
+    }
+    .feature-title{
+        font-size: 30px;
+    }
 }
 
 
